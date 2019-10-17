@@ -1,33 +1,419 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<title>天天生鲜-首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		
+		<!--登录， 注册， 订单， 购物车-->
+		<div class="header_cons">			
+			<div class="header">
+				<div class="welcome fl">欢迎来到天天生鲜</div>
+				<div class="user_cons fr">
+					<ul class="login_buttons fl">
+						<li><a href="#">登录</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">注册</a></li>
+					</ul>
+					<div class="user_info fl">
+						欢迎您：<em>张三</em>
+					</div>
+					<ul class="user_buttons fl">
+						<li><span>|</span></li>
+						<li><a href="#">我的购物车</a></li>
+						<li><span>|</span></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!--log, 搜索框, 购物车-->
+		<div class="center_con">
+			
+			<a href="index.html" class="logo fl"><img src="img/logo.png" alt="天天生鲜logo"/></a>
+			
+			<div class="search_con fl">
+				<form>
+					<input type="text" name="" class="search_text fl" placeholder="搜索"/>
+					<input type="submit" name="" class="search_botton fl" value="搜索"/>
+				</form>
+			</div>
+			
+			<div class="cart_con fr">
+				<a href="#" class="cart_link fl">我的购物车</a>
+				<div class="cart_num fl">5</div>
+			</div>
+		</div>
+		
+		<!--主菜单-->
+		<div class="main_menu_con">
+			<div class="center_con_01">
+				<h2>全部商品分类</h2>
+				<ul class="list">
+					<li><a href="#">首页</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">手机生鲜</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">抽奖</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--二级菜单，幻灯片，广告-->
+		<div class="center_con_02">
+			
+			<div class="all_classify fl">
+				<ul>
+					<li><a href="#" class="li_01">新鲜水果</a></li>
+					<li><a href="#" class="li_02">新鲜水果</a></li>
+					<li><a href="#" class="li_03">新鲜水果</a></li>
+					<li><a href="#" class="li_04">新鲜水果</a></li>
+					<li><a href="#" class="li_05">新鲜水果</a></li>
+					<li><a href="#" class="li_06">新鲜水果</a></li>
+				</ul>
+			</div>
+			
+			<div class="slide_con fl">
+				<ul class="slide">
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+					<li><a href="#"><img src="img/slide.jpg" alt="幻灯片" /></a></li>
+				</ul>
+				
+				<div class="prev"></div>
+				<div class="next"></div>
+				
+				<ul class="points">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			
+			<div class="advertising fl">
+				<a href="#"><img src="img/adv01.jpg" alt="广告图片"/></a>
+				<a href="#"><img src="img/adv02.jpg" alt="广告图片"/></a>
+			</div>
+		
+		</div>
+			
+			
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>新鲜水果</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">草莓</a></li>
+					<li><a href="#">葡萄</a></li>
+					<li><a href="#">柠檬</a></li>
+					<li><a href="#">奇异果</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
+		</div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WX的个人小站</title>
-    <style>
-        div {
-            width: 100px;
-            height: 100px;
-            background: #bfa;
-            transition: width 2s;
-        }
+		<!--时令水果展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner01.jpg" alt="时令水果图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">草莓</a>
+							<img src="img/goods.jpg" alt="草莓图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">葡萄</a>
+							<img src="img/goods.jpg" alt="草莓图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">柠檬</a>
+							<img src="img/goods.jpg" alt="草莓图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">奇异果</a>
+							<img src="img/goods.jpg" alt="草莓图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>海鲜水产</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">青岛野生海捕大青虾</a></li>
+					<li><a href="#">扇贝</a></li>
+					<li><a href="#">冷冻秋刀鱼</a></li>
+					<li><a href="#">基围虾</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
 
-        div:hover {
-            width: 300px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div></div>
-
-    <p>请把鼠标指针移动到 div 元素上，就可以看到过渡效果。</p>
-
-    <p><b>注释：</b>本例在 Internet Explorer 9及以下版本中无效。</p>
-
-</body>
-
+		</div>
+		
+		<!--海鲜水产展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner02.jpg" alt="海鲜水产图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">青岛野生海捕大青虾</a>
+							<img src="img/goods.jpg" alt="青岛野生海捕大青虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">扇贝</a>
+							<img src="img/goods.jpg" alt="扇贝图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">冷冻秋刀鱼</a>
+							<img src="img/goods.jpg" alt="冷冻秋刀鱼图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">基围虾</a>
+							<img src="img/goods.jpg" alt="基围虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>海鲜水产</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">青岛野生海捕大青虾</a></li>
+					<li><a href="#">扇贝</a></li>
+					<li><a href="#">冷冻秋刀鱼</a></li>
+					<li><a href="#">基围虾</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
+		</div>
+		
+		<!--海鲜水产展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner03.jpg" alt="海鲜水产图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">青岛野生海捕大青虾</a>
+							<img src="img/goods.jpg" alt="青岛野生海捕大青虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">扇贝</a>
+							<img src="img/goods.jpg" alt="扇贝图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">冷冻秋刀鱼</a>
+							<img src="img/goods.jpg" alt="冷冻秋刀鱼图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">基围虾</a>
+							<img src="img/goods.jpg" alt="基围虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>海鲜水产</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">青岛野生海捕大青虾</a></li>
+					<li><a href="#">扇贝</a></li>
+					<li><a href="#">冷冻秋刀鱼</a></li>
+					<li><a href="#">基围虾</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
+		</div>
+		
+		<!--海鲜水产展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner04.jpg" alt="海鲜水产图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">青岛野生海捕大青虾</a>
+							<img src="img/goods.jpg" alt="青岛野生海捕大青虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">扇贝</a>
+							<img src="img/goods.jpg" alt="扇贝图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">冷冻秋刀鱼</a>
+							<img src="img/goods.jpg" alt="冷冻秋刀鱼图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">基围虾</a>
+							<img src="img/goods.jpg" alt="基围虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>海鲜水产</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">青岛野生海捕大青虾</a></li>
+					<li><a href="#">扇贝</a></li>
+					<li><a href="#">冷冻秋刀鱼</a></li>
+					<li><a href="#">基围虾</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
+		</div>
+		
+		<!--海鲜水产展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner05.jpg" alt="海鲜水产图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">青岛野生海捕大青虾</a>
+							<img src="img/goods.jpg" alt="青岛野生海捕大青虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">扇贝</a>
+							<img src="img/goods.jpg" alt="扇贝图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">冷冻秋刀鱼</a>
+							<img src="img/goods.jpg" alt="冷冻秋刀鱼图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">基围虾</a>
+							<img src="img/goods.jpg" alt="基围虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--商品菜单， 商品信息-->
+		<div class="commant_con">
+			<div class="center_con_03">
+				<h3>海鲜水产</h3>
+				<ul class="fruits_list">
+					<li><span>|</span></li>
+					<li><a href="#">青岛野生海捕大青虾</a></li>
+					<li><a href="#">扇贝</a></li>
+					<li><a href="#">冷冻秋刀鱼</a></li>
+					<li><a href="#">基围虾</a></li>
+				</ul>
+				<a href="#" class="more">查看更多&gt;</a>
+			</div>
+		</div>
+		
+		<!--海鲜水产展示栏-->
+		<div class="main_con">
+			<div class="center_con_04">
+				<div class="classify_pic fl"><img src="img/banner06.jpg" alt="海鲜水产图片" /></div>
+				
+				<div class="goods_list">
+					<ul>
+						<li>
+							<a href="#">青岛野生海捕大青虾</a>
+							<img src="img/goods.jpg" alt="青岛野生海捕大青虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">扇贝</a>
+							<img src="img/goods.jpg" alt="扇贝图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">冷冻秋刀鱼</a>
+							<img src="img/goods.jpg" alt="冷冻秋刀鱼图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+						<li>
+							<a href="#">基围虾</a>
+							<img src="img/goods.jpg" alt="基围虾图片"/>
+							<span>￥&nbsp;&nbsp;&nbsp;12.5</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bottom_con">
+			<div class="center_text">
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">联系我们</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">招聘人才</a></li>
+					<li><span>|</span></li>
+					<li><a href="#">友情链接</a></li>
+				</ul>
+				<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+				<p>电话：010-****888    京ICP备*******8号</p>
+			</div>
+			
+			
+			
+		</div>
+	</body>
 </html>
